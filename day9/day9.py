@@ -10,7 +10,8 @@ while more_bidders:
     aux = input("Is there any others bidders? type 'yes' or 'no':\n")
     if aux == "no":
         more_bidders = False
-    print("\n" * 50)
+    else:
+        print("\n" * 100)
 
 highest_bid_name = ""
 highest_bid = 0
